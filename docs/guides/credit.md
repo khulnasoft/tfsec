@@ -9,4 +9,4 @@ Thanks to all [contributors][contributors]
 
 [liamg]: https://github.com/liamg
 [owenrumney]: https://github.com/owenrumney
-[contributors]: https://github.com/aquasecurity/tfsec/graphs/contributors
+[contributors]: https://github.com/khulnasoft/tfsec/graphs/contributors

@@ -19,7 +19,7 @@ function clone_image() {
 
 OWNER=$1
 
-RESULTS=$(docker image list --format {{.Repository}}:{{.Tag}} | grep aquasec/tfsec | awk -F/ '{print $2}')
+RESULTS=$(docker image list --format {{.Repository}}:{{.Tag}} | grep khulnasoft/tfsec | awk -F/ '{print $2}')
 
 for RESULT in $RESULTS; do
     clone_image $RESULT $OWNER

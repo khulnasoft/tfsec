@@ -3,7 +3,7 @@ builds:
     main: ./cmd/tfsec
     binary: tfsec
     ldflags:
-      - "-X github.com/aquasecurity/tfsec/version.Version={{.Tag}} -s -w -extldflags '-fno-PIC -static'"
+      - "-X github.com/khulnasoft/tfsec/version.Version={{.Tag}} -s -w -extldflags '-fno-PIC -static'"
     env:
       - CGO_ENABLED=0
     goos:
@@ -17,7 +17,7 @@ builds:
     main: ./cmd/tfsec-checkgen
     binary: tfsec-checkgen
     ldflags:
-      - "-X github.com/aquasecurity/tfsec/version.Version={{.Tag}} -s -w -extldflags '-fno-PIC -static'"
+      - "-X github.com/khulnasoft/tfsec/version.Version={{.Tag}} -s -w -extldflags '-fno-PIC -static'"
     env:
       - CGO_ENABLED=0
     goos:
@@ -179,4 +179,4 @@ announce:
 
   twitter:
     enabled: false
-    message_template: "🎉 tfsec {{.Tag}} is available now!! See what's new here - https://github.com/aquasecurity/tfsec/releases/tag/{{.Tag}}"
+    message_template: "🎉 tfsec {{.Tag}} is available now!! See what's new here - https://github.com/khulnasoft/tfsec/releases/tag/{{.Tag}}"

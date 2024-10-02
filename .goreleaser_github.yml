@@ -3,7 +3,7 @@ builds:
     main: ./cmd/tfsec
     binary: tfsec
     ldflags:
-      - "-X github.com/aquasecurity/tfsec/version.Version={{.Tag}} -s -w -extldflags '-fno-PIC -static'"
+      - "-X github.com/khulnasoft/tfsec/version.Version={{.Tag}} -s -w -extldflags '-fno-PIC -static'"
     env:
       - CGO_ENABLED=0
     goos:
@@ -17,7 +17,7 @@ builds:
     main: ./cmd/tfsec-checkgen
     binary: tfsec-checkgen
     ldflags:
-      - "-X github.com/aquasecurity/tfsec/version.Version={{.Tag}} -s -w -extldflags '-fno-PIC -static'"
+      - "-X github.com/khulnasoft/tfsec/version.Version={{.Tag}} -s -w -extldflags '-fno-PIC -static'"
     env:
       - CGO_ENABLED=0
     goos:
