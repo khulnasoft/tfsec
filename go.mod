@@ -1,4 +1,4 @@
-module github.com/aquasecurity/tfsec
+module github.com/khulnasoft/tfsec
 
 go 1.19
 

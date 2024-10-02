@@ -12,8 +12,8 @@ import (
 	"github.com/aquasecurity/defsec/pkg/providers"
 	"github.com/aquasecurity/defsec/pkg/scan"
 	scanner "github.com/aquasecurity/defsec/pkg/scanners/terraform"
-	"github.com/aquasecurity/tfsec/internal/pkg/formatter"
-	"github.com/aquasecurity/tfsec/version"
+	"github.com/khulnasoft/tfsec/internal/pkg/formatter"
+	"github.com/khulnasoft/tfsec/version"
 	"github.com/liamg/tml"
 )
 
